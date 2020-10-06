@@ -1,0 +1,13 @@
+Introduccion a sass
+
+sass preprocesador -> soporte grande de comunidad
+Less preprocesador -> practico y sencillo
+Stylus preprocesador -> bastante completo se acerca mas a un paradigma en programacion
+
+https://www.sassmeister.com/ -> compilador de sass en css
+todos los estilos de sass deben de tener la extension scss todos los preprocesadores tienen un tipo watcher que observa los cambios
+
+la propiedad !default assigna ese valor a un atributo de css si aun no carga el asignado
+
+Organizacion sass
+dividir archivos mediante la etiqueta "@import"
