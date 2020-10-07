@@ -11,3 +11,18 @@ la propiedad !default assigna ese valor a un atributo de css si aun no carga el 
 
 Organizacion sass
 dividir archivos mediante la etiqueta "@import"
+
+Ventajas de usar SASS es organizar el archivo por categorias 
+
+
+nomenclatura de estilos siempre empezamos un codigo sass especificando al inicio la variable y para que es 
+/*************************
+|   $COLORS
+|
+*************************/
+/**
+* Braning Colors
+*/
+
+las variables siempre empiezan con signo de dollar y por buena practica primero va la caracteristica principal de css y despues para que cosa ejemplo
+$color-brand: black;

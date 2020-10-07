@@ -1,3 +1,5 @@
+
+
 $color: red !default;
 $color2: blue !default;
 $color3: green !default;
@@ -5,3 +7,9 @@ $color3: green !default;
 .div {
     background-color: $color2;
 }
+
+@import '_tablas.scss';
+
+
+//los import suelen estar en un solo archivo
+//_"name" el underScope significa que es un archivo que se va a importar
