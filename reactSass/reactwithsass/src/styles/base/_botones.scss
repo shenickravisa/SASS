@@ -1,0 +1,22 @@
+/*************************
+   
+********************$BOTONES
+
+*************************/
+
+/*
+    Botones
+*/
+@import "./ejemplo1/_variables";
+
+$buttoncolor: $color-white;
+$buttonbackgroundcolor: $color-brand;
+
+.btn {
+    display: inline-block;
+    color: $buttoncolor;
+    background-color: $buttonbackgroundcolor;
+    line-height: 2.5;
+    border-radius: $border-radius;
+}
+

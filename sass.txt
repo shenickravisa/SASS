@@ -26,3 +26,19 @@ nomenclatura de estilos siempre empezamos un codigo sass especificando al inicio
 
 las variables siempre empiezan con signo de dollar y por buena practica primero va la caracteristica principal de css y despues para que cosa ejemplo
 $color-brand: black;
+
+cuando un archivo sera importado se debe de utilizar _ guion bajo
+
+los archivos sass se componen por:
+components -> grids columnas flexbox utilidades align text floats etc
+lib -> variables
+base -> atributos html como botones links navs divs etc
+
+las utilidades siempre van al ultimo
+
+anidaciones nos permite anidar selectores uno dentro de otro
+
+block element modifier BEM organizar y decir a que pertenece y que hace
+
+B: .btn
+E: diferenciador del B
