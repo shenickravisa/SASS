@@ -8,15 +8,55 @@
     Botones
 */
 @import "./ejemplo1/_variables";
+@import "./ejemplo2/base/_tipografia";
 
 $buttoncolor: $color-white;
 $buttonbackgroundcolor: $color-brand;
+$buttonfontsize: 16px;
 
 .btn {
     display: inline-block;
     color: $buttoncolor;
     background-color: $buttonbackgroundcolor;
     line-height: 2.5;
+    font-size: $basefontsize * 1.5;
     border-radius: $border-radius;
 }
 
+//BEM
+//Bloque __
+.btn__icon {
+    font-size: 0.6em;
+}
+
+//.btn-- -> modificador es decir el mismo boton con un cambio visual
+
+.btn--info {
+    background-color: $color-info;
+}
+
+/*
+podemos hacer anidaciones pero si lo hacemos las clases no funcion por se parado si no siempre tienen que tener su dependencia
+
+& anperson nos indica que antes de cualquier caracter especial nos agregara el nombre de la clase padre
+
+ejemplo
+
+.btn {
+    display: inline-block;
+    color: $buttoncolor;
+    background-color: $buttonbackgroundcolor;
+    line-height: 2.5;
+    font-size: $basefontsize * 1.5;
+    border-radius: $border-radius;
+    
+
+.&__icon {
+    font-size: 0.6em;
+}
+
+.&--info {
+    background-color: $color-info;
+}
+}
+*/

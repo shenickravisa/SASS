@@ -42,3 +42,50 @@ block element modifier BEM organizar y decir a que pertenece y que hace
 
 B: .btn
 E: diferenciador del B
+M
+
+/*
+font size permite hacer operaciones matematicas
+ font-size: $basefontsize * 1.5 * 1px;
+ tambien podemos multiplicar por unidades de medida
+
+ podemos hacer anidaciones pero si lo hacemos las clases no funcion por se parado si no siempre tienen que tener su dependencia
+
+& anperson nos indica que antes de cualquier caracter especial nos agregara el nombre de la clase padre
+
+.btn {
+    display: inline-block;
+    color: $buttoncolor;
+    background-color: $buttonbackgroundcolor;
+    line-height: 2.5;
+    font-size: $basefontsize * 1.5;
+    border-radius: $border-radius;
+    
+
+.&__icon {
+    font-size: 0.6em;
+}
+
+.&--info {
+    background-color: $color-info;
+}
+}
+*/
+
+mixin -> nos permite reusar declaraciones y inclusive modificarlos
+
+@mixin define
+@mixin max-width {
+    max-width: 1024px;
+}
+
+//nosotros en nuestro include abstraemos las funcionalidades de lo que tenga la clase mixin y ademas
+agregar las nuestras
+
+section {
+    @include max-width;
+    background-color: $lightgrey;
+    padding: $paddingbase;
+}
+
+los mixins pueden ser parametricos es decir depende de parametros

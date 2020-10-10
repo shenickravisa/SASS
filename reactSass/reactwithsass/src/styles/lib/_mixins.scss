@@ -1,0 +1,15 @@
+/*************************
+   
+********************$MIXINS
+
+*************************/
+
+/*
+    mixins
+*/
+
+@mixin max-width ($maxwidth:800px){
+    max-width: $maxwidth;
+    margin-left: auto;
+    margin-right: auto;
+}

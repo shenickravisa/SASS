@@ -1,11 +1,15 @@
 // Librerias, Settings y Variables
 @import "lib/variables";
+@import "lib/_mixins";
 
 // Elmentos Base
 @import "base/_botones";
 @import "base/_links";
 @import "base/_tipografia";
 
+//layout
+@import "layout/_layouts";
+
 // Componentes
 @import "components/_grids";
-@import "components/utilities"
+@import "components/utilities";
